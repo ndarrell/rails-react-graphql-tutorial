@@ -1,0 +1,33 @@
+LOG:  database system was shut down at 2017-11-12 14:47:26 EST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "yetibook_test" does not exist
+FATAL:  database "yetibook_development" does not exist
+ERROR:  duplicate key value violates unique constraint "index_yetis_on_email"
+DETAIL:  Key (email)=(MyString) already exists.
+STATEMENT:  INSERT INTO "yetis" ("name", "email", "password_digest", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '$2a$10$JxRWDjL7e1o0WRquySUsO.Omd58lnuInM7Jf33WTe9zbDokmvBh2S', '2017-11-12 19:55:24.493511', '2017-11-12 19:55:24.493511', 298486374)
+ERROR:  duplicate key value violates unique constraint "index_yetis_on_email"
+DETAIL:  Key (email)=(MyString) already exists.
+STATEMENT:  INSERT INTO "yetis" ("name", "email", "password_digest", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '$2a$10$B/PjbZ69rySUlOO.t5sYCunRul1HCzGo3GXuyOVhDOariKRCUCOpO', '2017-11-12 19:55:24.716000', '2017-11-12 19:55:24.716000', 298486374)
+ERROR:  duplicate key value violates unique constraint "index_yetis_on_email"
+DETAIL:  Key (email)=(MyString) already exists.
+STATEMENT:  INSERT INTO "yetis" ("name", "email", "password_digest", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '$2a$10$3Xhp.4vBW.X1ehs35ZPgx.YCsSqqNVmMzeQHKhUdNL7kq8BCYdCV2', '2017-11-12 19:55:24.854369', '2017-11-12 19:55:24.854369', 298486374)
+LOG:  database system was interrupted; last known up at 2017-11-12 15:28:19 EST
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/156D630: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2017-11-15 22:54:31 EST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
