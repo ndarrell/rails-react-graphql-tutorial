@@ -163,6 +163,14 @@ Our tests finally ran--but now there are different errors. Let's solve those and
 ### Fixing our tests
 First, uncomment the `bcrypt` gem in our `Gemfile`.
 
+Make sure to run a
+
+```bash
+bundle install
+```
+
+to ensure that the gem is installed!
+
 Second, we need to update our fixtures. `Fixtures` are what Rails uses to populate our test database with data. Just go to `test/fixtures/yetis.yml`
 and make sure that the data have different email addresses to quell the last error.
 
